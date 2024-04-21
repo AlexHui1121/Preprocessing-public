@@ -1,0 +1,21 @@
+AssertionError:
+    database = "weibodataset1"
+    topic = r"metoo"
+    year = 2023
+    month = None
+    num_topics = 1
+    
+    # LDA setting
+    filter = False
+    multicore= False
+
+ValueError("cannot compute LDA over an empty collection (no terms)"):
+     database = "weibodataset1"
+    topic = r"metoo"
+    year = 2023
+    month = None
+    num_topics = 2
+    
+    # LDA setting
+    filter = True
+    multicore= False
